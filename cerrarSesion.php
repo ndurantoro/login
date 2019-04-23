@@ -1,7 +1,9 @@
 <?php
 include ("Lib/constantes.php");
 session_unset();
+
 session_destroy();
+
 header("location:".URLBASE);
 /* 
  * To change this license header, choose License Headers in Project Properties.
