@@ -13,9 +13,10 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <form method="POST" action="<?=URLBASE?>controlador/accUsuario.php">
-            <input type="text" name="usuario">
-            <input type="password" name="clave">
+        <form method="POST" action="<?=URLBASE?>controlador/accUsuarioCambiarClave.php">
+            <input type="password" name="clave0">
+            <input type="password" name="clave1">
+            <input type="password" name="clave2">
             <input type="submit" name="enviar" value="Acceder">
         </form>
     </body>
